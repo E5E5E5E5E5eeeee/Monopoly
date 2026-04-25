@@ -1,4 +1,5 @@
 # 🎩 Monopoly solo - Processing (Python)
+<img width="247" height="263" alt="image0" src="https://github.com/user-attachments/assets/9c030469-ed22-4e80-aa67-9ed212b94368" />
 
 Une adaptation simplifiée du Monopoly réalisée en Python. 
 
