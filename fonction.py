@@ -25,7 +25,7 @@ def affichage(plateau, case):
 def lancer_de(plateau, case):
     if dist((plateau[case][0] + plateau[case][2] +plateau[case][4])//3, (plateau[case][1] + plateau[case][3] +plateau[case][5])//3,
              mouseX, mouseY)<=50 :
-        de = 1
+        de = randint(1,3)
         return de
     return 0
 
@@ -73,7 +73,7 @@ def depart(case, portefeuille):
     return portefeuille
         
 def prison(case, de):
-    if case == 4 and de != 1:
+    if case == 4 and de != 3:
         de = 0
         return de 
     else:
